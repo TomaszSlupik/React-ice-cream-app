@@ -1,0 +1,11 @@
+.linebox {
+	position: relative;
+	width: 100%;
+}
+.line {
+	margin-left: 3.8em;
+	width: 150px;
+	height: 4px;
+	background-image: linear-gradient(45deg, var(--colorTwo), var(--colorThree));
+	border-radius: 8px;
+}

@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--colorOne: #b2b4fe;
+	--colorTwo: #2d1301;
+	--colorThree: #fff;
+}
+
+body {
+	background-color: var(--colorOne);
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+h1 {
+	color: var(--colorTwo);
+	font-size: 4rem;
+  margin-left: 1em;
+}
