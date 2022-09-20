@@ -1,0 +1,25 @@
+.gallerybox {
+	position: relative;
+	width: 100%;
+}
+
+.galleryflex {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+img {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+}
+
+@media (max-width: 568px) {
+	.galleryflex {
+		flex-direction: column;
+	}
+}
